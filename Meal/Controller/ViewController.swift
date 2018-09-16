@@ -33,6 +33,8 @@ class ViewController: UIViewController {
                 print("Application Not Allowed to Display Notifications")
              
               
+            case .provisional:
+                break
             }
             
         }
